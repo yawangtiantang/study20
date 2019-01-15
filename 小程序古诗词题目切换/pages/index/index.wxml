@@ -1,0 +1,7 @@
+<view wx:for="{{postList}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+  <navigator url="../detail/detail?id={{index}}">
+    <text>{{item.name}}</text>
+  </navigator>  
+
+</view>
+<view>共{{postList.length}}首作品</view>

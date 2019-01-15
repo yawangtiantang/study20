@@ -1,0 +1,10 @@
+
+<view>
+  <view>{{detail[id].name}}</view>
+  <view>{{detail[id].content}}</view>
+
+</view>
+  
+  <text>第{{id+1}}首/共{{detail.length}}首</text>
+  <button bindtap="last">◀</button>
+  <button bindtap="next">▶</button>
